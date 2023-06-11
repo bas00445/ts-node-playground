@@ -10,6 +10,7 @@ import {
   allEqualValues,
   longestCommonPrefix,
 } from "./quizes/longestCommonPrefix";
+import { flatArray } from "./quizes/flatArray";
 
 // const r1 = maxArea([1, 8, 6, 2, 5, 4, 8, 3, 7]);
 // const r2 = maxArea([4, 3, 2, 1, 4]);
@@ -49,5 +50,7 @@ import {
 // console.log(convert("PAYPALISHIRING", 3));
 // console.log(convert("PAYPALISHIRING", 4));
 
-console.log(longestCommonPrefix(["flower", "flow", "flight"]));
-console.log(longestCommonPrefix(["f", "f", "f"]));
+// console.log(longestCommonPrefix(["flower", "flow", "flight"]));
+// console.log(longestCommonPrefix(["f", "f", "f"]));
+
+console.log(flatArray([1, [2, 3], [4, [5, 6]]]));
