@@ -53,4 +53,4 @@ import { flatArray } from "./quizes/flatArray";
 // console.log(longestCommonPrefix(["flower", "flow", "flight"]));
 // console.log(longestCommonPrefix(["f", "f", "f"]));
 
-console.log(flatArray([1, [2, 3], [4, [5, 6]]]));
+// console.log(flatArray([1, [2, 3], [4, [5, 6]]]));

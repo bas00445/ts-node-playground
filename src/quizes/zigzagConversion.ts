@@ -3,10 +3,7 @@ export function convert(s: string, numRows: number): string {
     return s;
   }
 
-  const containerArrays: any[] = [];
-  for (let index = 0; index < numRows; index++) {
-    containerArrays.push([]);
-  }
+  const containerArrays = Array.from<any>({ length: numRows });
 
   let pointerIndex = 0;
   let increaseIndex = 0;

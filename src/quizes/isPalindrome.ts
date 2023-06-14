@@ -1,4 +1,4 @@
-export function isPalindrome(str: number) {
+export function isPalindrome(str: string) {
   for (let i = 0; i < str.length / 2; i++) {
     const first = str[i];
     const last = str[str.length - i];
